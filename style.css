@@ -3,7 +3,6 @@ body {
     flex-direction: column;
     justify-content: center;
     margin: 0;
-    height: 100vh;
 }
 
 header, footer {
@@ -66,6 +65,7 @@ footer {
 
 button {
     width: 100px;
+    height: 30px;
     color: #f9faf8;
     border-radius: 6px;
     padding: 6px 0;
@@ -132,6 +132,7 @@ button {
 .three {
     flex-direction: column;
     background-color: #e5e7eb;
+    padding: 100px 50px;
 }
 
 .quote {
@@ -143,6 +144,37 @@ button {
 .sign {
     font-weight: 900;
     color: #1f2937;
-    font-size: 20px;
+    font-size: 24px;
     align-self: flex-end;
+}
+
+.four {
+    justify-content: center;
+    padding: 100px 50px;
+}
+
+.inside-box {
+    background-color: #3882f6;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 40px;
+}
+
+.header-four {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+}
+
+.desc-four {
+    color: white;
+}
+
+.button-two {
+    border: 2px solid white;
+    background-color: #3882f6;
+    color: white;
 }
