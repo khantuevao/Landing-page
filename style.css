@@ -15,7 +15,6 @@ header, footer {
 }
 
 header {
-    margin-bottom: auto;
     justify-content: space-between;
 }
 
@@ -37,6 +36,56 @@ footer {
 }
 
 .section {
-    height: 100px;
+    display: flex;
+    padding: 20px;
+}
+
+.one {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 20px;
+}
+
+.top {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.mid {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    width: 100px;
+    color: #f9faf8;
+    border-radius: 6px;
+    padding: 6px 0;
+    font-weight: 900;
+}
+
+.button-one {
+    background-color: #3882f6;
+    border: none;
+    
+
+}
+
+.right {
+    background-color: rgb(145, 145, 145);
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
 }
 
