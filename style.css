@@ -2,6 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0;
+    height: 100vh;
 }
 
 header, footer {
@@ -9,16 +11,18 @@ header, footer {
     color: #f9faf8;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 0 20px;
 }
 
 header {
     margin-bottom: auto;
+    justify-content: space-between;
 }
 
 footer {
     margin-top: auto;
+    padding: 20px;
+    justify-content: center;
 }
 
 .logo {
@@ -30,5 +34,9 @@ footer {
     display: flex;
     gap: 20px;
     list-style-type: none;
+}
+
+.section {
+    height: 100px;
 }
 
