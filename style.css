@@ -11,7 +11,7 @@ header, footer {
     color: #f9faf8;
     display: flex;
     align-items: center;
-    padding: 0 20px;
+    padding: 20px 50px;
 }
 
 header {
@@ -37,7 +37,7 @@ footer {
 
 .section {
     display: flex;
-    padding: 20px;
+    padding: 50px;
 }
 
 .one {
@@ -89,3 +89,42 @@ button {
     height: 200px;
 }
 
+.two {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.top-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.bot-two {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    gap: 10px;
+}
+
+.square {
+    width: inherit;
+    height: 100px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.desc {
+    text-align: center;
+}
